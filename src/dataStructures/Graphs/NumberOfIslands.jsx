@@ -95,7 +95,7 @@ const NumberOfIslands = () => {
 
   return (
     <div className="container mx-auto mt-8">
-      <h1 className="text-2xl font-bold mb-4 text-primary">
+      <h1 className="font-extrabold mb-4 text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-300 to-pink-900">
         Number of Islands
       </h1>
       <div className="space-y-4">
@@ -111,7 +111,7 @@ const NumberOfIslands = () => {
                   className="btn mb-3 justify-start "
                   disabled
                 >
-                  <span className="capitalize text-accent">{option}</span>
+                  <span className="capitalize text-primary">{option}</span>
                 </button>
               ))}
             </div>

@@ -92,7 +92,9 @@ function TopologicalSort() {
 
   return (
     <div className="container mx-auto mt-8">
-      <h1 className="text-2xl font-bold mb-4 text-primary">Topological Sort</h1>
+      <h1 className="font-extrabold text-transparent text-2xl mb-4 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 outline-accent">
+        Topological Sort
+      </h1>
       <div className="space-y-4">
         {questions.map((question, index) => (
           <div key={index}>
@@ -106,7 +108,7 @@ function TopologicalSort() {
                   className="btn mb-3 justify-start "
                   disabled
                 >
-                  <span className="capitalize text-accent">{option}</span>
+                  <span className="capitalize text-primary">{option}</span>
                 </button>
               ))}
             </div>
