@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Graphs = () => {
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2">
         <Link
           to="/topoSort"
           className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
@@ -48,6 +48,18 @@ const Graphs = () => {
           className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
         >
           Bellman Ford Algorithm
+        </Link>
+        <Link
+          to="/floydwarshall"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Floyd Warshall Algorithm
+        </Link>
+        <Link
+          to="/prims"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Prims Algorithm
         </Link>
       </div>
     </div>

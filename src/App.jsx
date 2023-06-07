@@ -8,6 +8,8 @@ import IsBipartite from "./dataStructures/Graphs/IsBipartite";
 import StronglyConnected from "./dataStructures/Graphs/StronglyConnected";
 import DijkstrasAlgo from "./dataStructures/Graphs/DijkstrasAlgo";
 import Bellman from "./dataStructures/Graphs/Bellman";
+import FloydWarshalls from "./FloydWarshalls";
+import PrimsAlgo from "./dataStructures/Graphs/PrimsAlgo";
 function App() {
   return (
     <Router>
@@ -26,6 +28,8 @@ function App() {
             <Route path="/kosaraju" element={<StronglyConnected />} />
             <Route path="/dijkstra" element={<DijkstrasAlgo />} />
             <Route path="/bellman" element={<Bellman />} />
+            <Route path="/floydwarshall" element={<FloydWarshalls />} />
+            <Route path="/prims" element={<PrimsAlgo />} />
           </Routes>
         </main>
       </div>
