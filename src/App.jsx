@@ -10,6 +10,8 @@ import DijkstrasAlgo from "./dataStructures/Graphs/DijkstrasAlgo";
 import Bellman from "./dataStructures/Graphs/Bellman";
 import FloydWarshalls from "./FloydWarshalls";
 import PrimsAlgo from "./dataStructures/Graphs/PrimsAlgo";
+import FloodFill from "./dataStructures/Graphs/FloodFill";
+import RottenOranges from "./dataStructures/Graphs/RottenOranges";
 function App() {
   return (
     <Router>
@@ -30,6 +32,8 @@ function App() {
             <Route path="/bellman" element={<Bellman />} />
             <Route path="/floydwarshall" element={<FloydWarshalls />} />
             <Route path="/prims" element={<PrimsAlgo />} />
+            <Route path="/floodfill" element={<FloodFill />} />
+            <Route path="/rotoranges" element={<RottenOranges />} />
           </Routes>
         </main>
       </div>

@@ -61,6 +61,18 @@ const Graphs = () => {
         >
           Prims Algorithm
         </Link>
+        <Link
+          to="/floodfill"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Flood fill Algorithm
+        </Link>
+        <Link
+          to="/rotoranges"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Rotten Oranges
+        </Link>
       </div>
     </div>
   );
