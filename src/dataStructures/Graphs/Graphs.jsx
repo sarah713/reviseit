@@ -73,6 +73,18 @@ const Graphs = () => {
         >
           Rotten Oranges
         </Link>
+        <Link
+          to="/OtoX"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Surrouned Regions
+        </Link>
+        <Link
+          to="/numOfEnclaves"
+          className="btn btn-ghost  rounded-btn text-accent  bg-neutral-focus"
+        >
+          Number Of Enclaves
+        </Link>
       </div>
     </div>
   );

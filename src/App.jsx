@@ -16,6 +16,8 @@ import DP from "./dataStructures/DP/DP";
 import MaxSumNonAdjacent from "./dataStructures/DP/MaxSumNonAdjacent";
 import Home from "./components/Home";
 import HouseRobberII from "./dataStructures/DP/HouseRobberII";
+import SurroundedRegions from "./dataStructures/Graphs/SurroundedRegions";
+import NumberOfEnclaves from "./dataStructures/Graphs/NumberOfEnclaves";
 function App() {
   return (
     <Router>
@@ -41,6 +43,8 @@ function App() {
           <Route path="/rotoranges" element={<RottenOranges />} />
           <Route path="/maxsum" element={<MaxSumNonAdjacent />} />
           <Route path="/houserob" element={<HouseRobberII />} />
+          <Route path="/OtoX" element={<SurroundedRegions />} />
+          <Route path="/numOfEnclaves" element={<NumberOfEnclaves />} />
         </Routes>
       </div>
     </Router>
